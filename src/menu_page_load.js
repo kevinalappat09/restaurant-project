@@ -1,3 +1,5 @@
+import Macaron from './images/macaron.jpg';
+
 function menuPageLoad() {
     const contentDiv = document.querySelector('.content');
 
@@ -34,7 +36,223 @@ function menuPageLoad() {
     contentDiv.appendChild(navDiv);
 
     let menuContent = document.createElement('div');
-    menuContent.innerHTML = "Menu Content Here";
+    menuContent.classList.add("menu-content");
+
+    let menuHeading = document.createElement('div');
+    menuHeading.innerHTML = "Menu";
+    menuHeading.classList.add('heading');
+    menuContent.appendChild(menuHeading);
+
+    let menuItemContainer = document.createElement('div');
+    menuItemContainer.classList.add('menu-item-container');
+
+    const menuItemsList = ['Macaron','Pain-Au-Chocolate','Souffle','Brownie','Waffle', 'Cat', 'Cake','Doughnut','Pani Puri','Intersting'];
+        
+    let menuItem = document.createElement('div');
+    menuItem.classList.add('menu-item');
+    let menuItemImage = document.createElement('img');
+    menuItemImage.src = Macaron;
+    menuItemImage.style.width = "200px";
+    menuItemImage.style.height = "200px";
+    let menuItemHeading = document.createElement('div');
+    menuItemHeading.innerHTML = "Macaron";
+    menuItemHeading.classList.add('menu-item-heading');
+    let menuItemPrice = document.createElement('div');
+    menuItemPrice.innerHTML = "$200";
+    menuItemPrice.classList.add('menu-item-price');
+    menuItem.appendChild(menuItemImage);
+    menuItem.appendChild(menuItemHeading);   
+    menuItem.appendChild(menuItemPrice);
+    menuItemContainer.appendChild(menuItem);
+
+    menuItem = document.createElement('div');
+    menuItem.classList.add('menu-item');
+    menuItemImage = document.createElement('img');
+    menuItemImage.src = Macaron;
+    menuItemImage.style.width = "200px";
+    menuItemImage.style.height = "200px";
+    menuItemHeading = document.createElement('div');
+    menuItemHeading.innerHTML = "Pain-Au-Chocolate";
+    menuItemHeading.classList.add('menu-item-heading');
+    menuItemPrice = document.createElement('div');
+    menuItemPrice.innerHTML = "$200";
+    menuItemPrice.classList.add('menu-item-price');
+    menuItem.appendChild(menuItemImage);
+    menuItem.appendChild(menuItemHeading);   
+    menuItem.appendChild(menuItemPrice);
+    menuItemContainer.appendChild(menuItem);
+
+    menuItem = document.createElement('div');
+    menuItem.classList.add('menu-item');
+    menuItemImage = document.createElement('img');
+    menuItemImage.src = Macaron;
+    menuItemImage.style.width = "200px";
+    menuItemImage.style.height = "200px";
+    menuItemHeading = document.createElement('div');
+    menuItemHeading.innerHTML = "Pain-Au-Chocolate";
+    menuItemHeading.classList.add('menu-item-heading');
+    menuItemPrice = document.createElement('div');
+    menuItemPrice.innerHTML = "$200";
+    menuItemPrice.classList.add('menu-item-price');
+    menuItem.appendChild(menuItemImage);
+    menuItem.appendChild(menuItemHeading);   
+    menuItem.appendChild(menuItemPrice);
+    menuItemContainer.appendChild(menuItem);
+
+    menuItem = document.createElement('div');
+    menuItem.classList.add('menu-item');
+    menuItemImage = document.createElement('img');
+    menuItemImage.src = Macaron;
+    menuItemImage.style.width = "200px";
+    menuItemImage.style.height = "200px";
+    menuItemHeading = document.createElement('div');
+    menuItemHeading.innerHTML = "Pain-Au-Chocolate";
+    menuItemHeading.classList.add('menu-item-heading');
+    menuItemPrice = document.createElement('div');
+    menuItemPrice.innerHTML = "$200";
+    menuItemPrice.classList.add('menu-item-price');
+    menuItem.appendChild(menuItemImage);
+    menuItem.appendChild(menuItemHeading);   
+    menuItem.appendChild(menuItemPrice);
+    menuItemContainer.appendChild(menuItem);
+
+    menuItem = document.createElement('div');
+    menuItem.classList.add('menu-item');
+    menuItemImage = document.createElement('img');
+    menuItemImage.src = Macaron;
+    menuItemImage.style.width = "200px";
+    menuItemImage.style.height = "200px";
+    menuItemHeading = document.createElement('div');
+    menuItemHeading.innerHTML = "Pain-Au-Chocolate";
+    menuItemHeading.classList.add('menu-item-heading');
+    menuItemPrice = document.createElement('div');
+    menuItemPrice.innerHTML = "$200";
+    menuItemPrice.classList.add('menu-item-price');
+    menuItem.appendChild(menuItemImage);
+    menuItem.appendChild(menuItemHeading);   
+    menuItem.appendChild(menuItemPrice);
+    menuItemContainer.appendChild(menuItem);
+
+    menuItem = document.createElement('div');
+    menuItem.classList.add('menu-item');
+    menuItemImage = document.createElement('img');
+    menuItemImage.src = Macaron;
+    menuItemImage.style.width = "200px";
+    menuItemImage.style.height = "200px";
+    menuItemHeading = document.createElement('div');
+    menuItemHeading.innerHTML = "Pain-Au-Chocolate";
+    menuItemHeading.classList.add('menu-item-heading');
+    menuItemPrice = document.createElement('div');
+    menuItemPrice.innerHTML = "$200";
+    menuItemPrice.classList.add('menu-item-price');
+    menuItem.appendChild(menuItemImage);
+    menuItem.appendChild(menuItemHeading);   
+    menuItem.appendChild(menuItemPrice);
+    menuItemContainer.appendChild(menuItem);
+
+    menuItem = document.createElement('div');
+    menuItem.classList.add('menu-item');
+    menuItemImage = document.createElement('img');
+    menuItemImage.src = Macaron;
+    menuItemImage.style.width = "200px";
+    menuItemImage.style.height = "200px";
+    menuItemHeading = document.createElement('div');
+    menuItemHeading.innerHTML = "Pain-Au-Chocolate";
+    menuItemHeading.classList.add('menu-item-heading');
+    menuItemPrice = document.createElement('div');
+    menuItemPrice.innerHTML = "$200";
+    menuItemPrice.classList.add('menu-item-price');
+    menuItem.appendChild(menuItemImage);
+    menuItem.appendChild(menuItemHeading);   
+    menuItem.appendChild(menuItemPrice);
+    menuItemContainer.appendChild(menuItem);
+
+    menuItem = document.createElement('div');
+    menuItem.classList.add('menu-item');
+    menuItemImage = document.createElement('img');
+    menuItemImage.src = Macaron;
+    menuItemImage.style.width = "200px";
+    menuItemImage.style.height = "200px";
+    menuItemHeading = document.createElement('div');
+    menuItemHeading.innerHTML = "Pain-Au-Chocolate";
+    menuItemHeading.classList.add('menu-item-heading');
+    menuItemPrice = document.createElement('div');
+    menuItemPrice.innerHTML = "$200";
+    menuItemPrice.classList.add('menu-item-price');
+    menuItem.appendChild(menuItemImage);
+    menuItem.appendChild(menuItemHeading);   
+    menuItem.appendChild(menuItemPrice);
+    menuItemContainer.appendChild(menuItem);
+
+    menuItem = document.createElement('div');
+    menuItem.classList.add('menu-item');
+    menuItemImage = document.createElement('img');
+    menuItemImage.src = Macaron;
+    menuItemImage.style.width = "200px";
+    menuItemImage.style.height = "200px";
+    menuItemHeading = document.createElement('div');
+    menuItemHeading.innerHTML = "Pain-Au-Chocolate";
+    menuItemHeading.classList.add('menu-item-heading');
+    menuItemPrice = document.createElement('div');
+    menuItemPrice.innerHTML = "$200";
+    menuItemPrice.classList.add('menu-item-price');
+    menuItem.appendChild(menuItemImage);
+    menuItem.appendChild(menuItemHeading);   
+    menuItem.appendChild(menuItemPrice);
+    menuItemContainer.appendChild(menuItem);
+
+    menuItem = document.createElement('div');
+    menuItem.classList.add('menu-item');
+    menuItemImage = document.createElement('img');
+    menuItemImage.src = Macaron;
+    menuItemImage.style.width = "200px";
+    menuItemImage.style.height = "200px";
+    menuItemHeading = document.createElement('div');
+    menuItemHeading.innerHTML = "Pain-Au-Chocolate";
+    menuItemHeading.classList.add('menu-item-heading');
+    menuItemPrice = document.createElement('div');
+    menuItemPrice.innerHTML = "$200";
+    menuItemPrice.classList.add('menu-item-price');
+    menuItem.appendChild(menuItemImage);
+    menuItem.appendChild(menuItemHeading);   
+    menuItem.appendChild(menuItemPrice);
+    menuItemContainer.appendChild(menuItem);
+
+    menuItem = document.createElement('div');
+    menuItem.classList.add('menu-item');
+    menuItemImage = document.createElement('img');
+    menuItemImage.src = Macaron;
+    menuItemImage.style.width = "200px";
+    menuItemImage.style.height = "200px";
+    menuItemHeading = document.createElement('div');
+    menuItemHeading.innerHTML = "Pain-Au-Chocolate";
+    menuItemHeading.classList.add('menu-item-heading');
+    menuItemPrice = document.createElement('div');
+    menuItemPrice.innerHTML = "$200";
+    menuItemPrice.classList.add('menu-item-price');
+    menuItem.appendChild(menuItemImage);
+    menuItem.appendChild(menuItemHeading);   
+    menuItem.appendChild(menuItemPrice);
+    menuItemContainer.appendChild(menuItem);
+
+    menuItem = document.createElement('div');
+    menuItem.classList.add('menu-item');
+    menuItemImage = document.createElement('img');
+    menuItemImage.src = Macaron;
+    menuItemImage.style.width = "200px";
+    menuItemImage.style.height = "200px";
+    menuItemHeading = document.createElement('div');
+    menuItemHeading.innerHTML = "Pain-Au-Chocolate";
+    menuItemHeading.classList.add('menu-item-heading');
+    menuItemPrice = document.createElement('div');
+    menuItemPrice.innerHTML = "$200";
+    menuItemPrice.classList.add('menu-item-price');
+    menuItem.appendChild(menuItemImage);
+    menuItem.appendChild(menuItemHeading);   
+    menuItem.appendChild(menuItemPrice);
+    menuItemContainer.appendChild(menuItem);
+
+    menuContent.appendChild(menuItemContainer);
 
     contentDiv.appendChild(menuContent);
 }

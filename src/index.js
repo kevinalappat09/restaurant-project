@@ -1,6 +1,7 @@
 import { pageLoad } from "./init_page_load.js";
 import { menuPageLoad } from "./menu_page_load.js";
 import { aboutPageLoad } from "./about_page_load.js";
+import './styles.css'
 
 const contentDiv = document.querySelector('.content');
 

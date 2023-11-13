@@ -48,45 +48,16 @@ function pageLoad() {
 
     contentDiv.appendChild(heroDiv);
 
-    let menuDiv = document.createElement('div');
-    menuDiv.classList.add('menu');
-
-    let menuHeading = document.createElement('div');
-    menuHeading.classList.add('heading');
-    menuHeading.innerHTML = "Menu";
-    let menuItemsDiv = document.createElement('div');
-    menuItemsDiv.classList.add('menu-items-container');
-    
-    let menuItem1 = document.createElement('div');
-    menuItem1.classList.add('menu-item');
-    menuItem1.innerHTML = "Macaron";
-    menuItemsDiv.appendChild(menuItem1);
-    let menuItem2 = document.createElement('div');
-    menuItem2.classList.add('menu-item');
-    menuItem2.innerHTML = "Brownie";
-    menuItemsDiv.appendChild(menuItem2);
-    let menuItem3 = document.createElement('div');
-    menuItem3.classList.add('menu-item');
-    menuItem3.innerHTML = "Pain Au Chocolate";
-    menuItemsDiv.appendChild(menuItem3);
-    let menuItem4 = document.createElement('div');
-    menuItem4.classList.add('menu-item');
-    menuItem4.innerHTML = "Soufle";
-    menuItemsDiv.appendChild(menuItem4);
-
-    menuDiv.appendChild(menuHeading);
-    menuDiv.appendChild(menuItemsDiv);
-    contentDiv.appendChild(menuDiv);
 
     let contactDiv = document.createElement('div');
     contactDiv.classList.add('contact');
     let contactHeading = document.createElement('div');
-    contactHeading.classList.add('heading');
+    contactHeading.classList.add('contact-heading');
     contactHeading.innerHTML = "Contact Us";
 
     let contactInfo = document.createElement('div');
     contactInfo.classList.add('contact-info');
-    contactInfo.innerHTML = "Here is our contact information. we would like it if you didn't call";
+    contactInfo.innerHTML = "Here is our contact information. We would like it if you didn't call";
     let contactButtons = document.createElement('div');
     contactButtons.classList.add('contact-button-container');
     
